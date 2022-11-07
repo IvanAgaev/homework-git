@@ -1,0 +1,130 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+    width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+     text-align: center;
+      font-size: medium; 
+      line-height: 15px;
+}
+
+
+.title{
+    font-size: 25px;
+    font-weight:800;
+    margin: 20px;
+}
+h1.title{
+    font-size: 30px;
+}
+.link_header{
+    color: black;
+    padding-left: 25px;
+} 
+.images{
+    margin-bottom: 20px;
+    width: 581px;
+    height: 382px;
+}
+h3.title{
+    font-size: 20px;
+}
+.table_total{
+    border: 1px solid #000;
+    margin: auto;
+}
+.tbody_total{
+background-color:white;
+}  
+.table_total td,.table_total tr,.table_total th {  
+           border: 1px solid #000;
+            width: 100px;
+            height: 50px;
+        } 
+        .table_mandorian{
+            border: 1px solid #000;
+            margin: auto; 
+        } 
+        .table_mandorian td,.table_mandolorian tr, .table_mandolorian th{
+            border: 1px solid white;
+            width: 150px;
+            height: 100px;
+        }
+        .center{
+            text-align: center;
+        }
+        .yellow_green{
+            background-color: yellowgreen;
+        }
+        .grey{
+            background-color: grey;
+        }
+        .light_green{
+            background-color: lightgreen;
+        }
+        .darkgreen{
+            background-color: darkgreen;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .link_black{
+            color:#000;
+        } 
+        
+        .sometext{
+            margin: 20px;
+            font-size: 20px;
+        } 
+        div>div{ 
+         margin-bottom: 40px;
+
+        }
